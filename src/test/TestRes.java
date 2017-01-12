@@ -1,14 +1,17 @@
 package test;
 
-import org.junit.Test;
 
+import static org.junit.Assert.*;
 import main.Res;
 
+import org.junit.Test;
+
 public class TestRes {
-	
+
 	@Test
 	public void testRes(){
-		assert(Res.res(1, 4)==4);
+		assertEquals(1, Res.res(6, 5));
 	}
-
+	
 }
+
