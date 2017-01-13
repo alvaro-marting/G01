@@ -15,7 +15,7 @@ public class TestRes {
 	
 	@Test
 	public void testRes2(){
-		assertEquals(0, Res.res(5, 5));
+		assertEquals(5, Res.res(5, 10));
 	}
 	
 }
