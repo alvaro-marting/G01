@@ -15,7 +15,11 @@ public class TestRes {
 	
 	@Test
 	public void testRes2(){
+<<<<<<< HEAD
 		assertEquals(5, Res.res(5, 10));
+=======
+		assertEquals(0, Res.res(5, 5));
+>>>>>>> master
 	}
 	
 }
